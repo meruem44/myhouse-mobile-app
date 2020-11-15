@@ -13,6 +13,7 @@ const AppRoutes: React.FC = () => {
             screenOptions={{
                 headerShown: false
             }}
+            initialRouteName-="Welcome"
         >
             <Screen name="Welcome" component={Welcome} />
             <Screen name="SignIn" component={SignIn} />
